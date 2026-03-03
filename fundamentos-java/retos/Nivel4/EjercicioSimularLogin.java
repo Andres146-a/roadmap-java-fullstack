@@ -56,9 +56,9 @@ public class EjercicioSimularLogin {
       
         for (int i = 0; i < usuario.length(); i++) {
           if (!(Character.isLetter(usuario.charAt(i)) || Character.isDigit(usuario.charAt(i)))) {
-    simbolos = true;
-    intentos += 1;
-}
+                simbolos = true;
+                intentos += 1;
+            }
         }
         if(simbolos){
             System.out.println("El usuario no debe tener Simbolos o espacios");
