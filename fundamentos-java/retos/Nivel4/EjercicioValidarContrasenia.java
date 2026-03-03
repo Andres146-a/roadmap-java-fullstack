@@ -21,7 +21,7 @@ public class EjercicioValidarContrasenia {
        
          if(palabra == null || palabra.isEmpty()){
             System.out.println("La cadena esta vacia. Ingrese su contraseña: ");
-            break;
+           
         }else{
             comprobadorContraseña(palabra);
         }
