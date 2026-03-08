@@ -9,13 +9,22 @@ public class Cuenta {
     private Usuario dueno;
 
 
-    public Cuenta(int numeroCuenta, double saldo, String tipoCuenta, Usuario dueno, Operacion historial){
-            this.numeroCuenta = numeroCuenta;
-            this.saldo = saldo;
-            this.tipoCuenta = tipoCuenta;
-            this.dueno = dueno;
-            this.historial = new ArrayList<>();
-    };
+
+    
+    public Cuenta() {
+    }
+    
+
+    public Cuenta(int numeroCuenta, double saldo, String tipoCuenta, Usuario dueno) {
+        this.numeroCuenta = numeroCuenta;
+        this.saldo = saldo;
+        this.tipoCuenta = tipoCuenta;
+        this.dueno = dueno;
+         this.historial = new ArrayList<>(); 
+    }
+
+    
+
 
     //getters; 
     public int getNumeroCuenta(){

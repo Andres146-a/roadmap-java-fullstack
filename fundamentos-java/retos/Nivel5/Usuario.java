@@ -13,6 +13,13 @@ public class Usuario {
         this.password = password;
     };
 
+    
+
+    public Usuario() {
+    }
+
+
+
     //getters and setters
     public String getNombre(){
         return nombre;
